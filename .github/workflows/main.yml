@@ -11,7 +11,7 @@ jobs:
 
       - name: Run black formatter
         uses: rickstaa/action-black@v1.1.14
-        
+
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
@@ -28,3 +28,6 @@ jobs:
       - name: Run test suite
         run: |
           pipenv run pytest
+      - name: Run test suite
+        run: |
+          pipenv run pytest --cov=app
