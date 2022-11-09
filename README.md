@@ -1,6 +1,7 @@
 # Recitation 8: static analysis and continuous integration
 Static and dynamic analysis tools help you keep the codebase healthy. In this recitation, we will learn how to set up these tools in CI (GitHub Actions). 
 # Step 1: Setup your sample Python repo
+# Test
 
 First, go to [this template repo](https://github.com/CMU-313/fall-2022-recitation-8-analysis-ci) and [use it](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to create your own repo. The repo is very similar to the HW4 repo, except that it comes with a failing test. 
 
